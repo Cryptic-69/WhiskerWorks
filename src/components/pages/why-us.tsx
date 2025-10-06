@@ -264,7 +264,7 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
             Join hundreds of satisfied clients who have transformed their business with TechSolutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90">
+            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
               Start Your Project
             </Button>
             <Button size="lg" variant="outline" onClick={() => setCurrentPage('services')}>

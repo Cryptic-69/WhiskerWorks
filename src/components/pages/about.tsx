@@ -52,7 +52,7 @@ export function AboutPage() {
           className="max-w-4xl mx-auto space-y-6"
         >
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1a3254] to-[#d3d4d8] bg-clip-text text-transparent">
-            About TechSolutions
+            About WhiskerWorks
           </h1>
           <p className="text-xl text-muted-foreground">
             We're passionate about creating technology solutions that empower businesses to reach their full potential.

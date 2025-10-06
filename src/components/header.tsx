@@ -27,7 +27,7 @@ export function Header({ currentPage, setCurrentPage, theme, toggleTheme }: Head
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#1a3254] to-[#d3d4d8]"></div>
-            <span className="text-xl font-bold text-[#1a3254] dark:text-[#d3d4d8]">TechSolutions</span>
+            <span className="text-xl font-bold text-[#1a3254] dark:text-[#d3d4d8]">WhiskerWorks</span>
           </div>
 
           {/* Desktop Navigation */}

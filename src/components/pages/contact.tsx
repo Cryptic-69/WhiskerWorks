@@ -211,7 +211,7 @@ export function ContactPage() {
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full bg-[#1a3254] hover:bg-[#1a3254]/90">
+                  <Button type="submit" size="lg" className="w-full bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
                     <Send className="h-4 w-4 mr-2" />
                     Send Message
                   </Button>
@@ -265,7 +265,7 @@ export function ContactPage() {
                     <Phone className="h-4 w-4 mr-2" />
                     Call Now
                   </Button>
-                  <Button className="flex-1 bg-[#1a3254] hover:bg-[#1a3254]/90">
+                  <Button className="flex-1 bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
                     <MessageSquare className="h-4 w-4 mr-2" />
                     Live Chat
                   </Button>

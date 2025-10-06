@@ -296,7 +296,7 @@ export function ServicesPage({ setCurrentPage }: ServicesProps) {
             Let's discuss your project and find the perfect solution for your business needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90">
+            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
               Start Your Project
             </Button>
             <Button size="lg" variant="outline" onClick={() => setCurrentPage('why-us')}>

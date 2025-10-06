@@ -28,10 +28,10 @@ export function HomePage({ setCurrentPage }: HomeProps) {
   ];
 
   const stats = [
-    { number: '500+', label: 'Projects Completed' },
+    { number: '3', label: 'Projects Completed' },
     { number: '98%', label: 'Client Satisfaction' },
     { number: '24/7', label: 'Support Available' },
-    { number: '5+', label: 'Years Experience' },
+    { number: '1+', label: 'Years Experience' },
   ];
 
   return (
@@ -51,7 +51,7 @@ export function HomePage({ setCurrentPage }: HomeProps) {
             Transform your digital presence with our comprehensive suite of web development, hosting, marketing, and AI solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90">
+            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
               Get Started Today
             </Button>
             <Button size="lg" variant="outline" onClick={() => setCurrentPage('services')}>
@@ -64,7 +64,7 @@ export function HomePage({ setCurrentPage }: HomeProps) {
       {/* Video Section */}
       <section className="py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Why Choose TechSolutions?</h2>
+          <h2 className="text-3xl font-bold mb-4">Why Choose WhiskerWorks?</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Discover how our innovative approach and dedicated team can transform your business.
           </p>
@@ -84,7 +84,7 @@ export function HomePage({ setCurrentPage }: HomeProps) {
               <p className="text-muted-foreground mb-6">
                 Watch how we've helped businesses like yours achieve remarkable growth through our tailored IT solutions.
               </p>
-              <Button className="bg-[#1a3254] hover:bg-[#1a3254]/90">
+              <Button className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
                 <Play className="h-4 w-4 mr-2" />
                 Watch Our Story
               </Button>
@@ -166,7 +166,7 @@ export function HomePage({ setCurrentPage }: HomeProps) {
             Join hundreds of satisfied clients who have accelerated their growth with our innovative solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90">
+            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
               Start Your Project
             </Button>
             <Button size="lg" variant="outline" onClick={() => setCurrentPage('why-us')}>

@@ -20,7 +20,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#1a3254] to-[#d3d4d8]"></div>
-              <span className="text-xl font-bold text-[#1a3254] dark:text-[#d3d4d8]">TechSolutions</span>
+              <span className="text-xl font-bold text-[#1a3254] dark:text-[#d3d4d8]">WhiskerWorks</span>
             </div>
             <p className="text-muted-foreground">
               Your trusted partner for innovative IT solutions. We deliver excellence in web development, hosting, and digital transformation.
@@ -71,7 +71,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>contact@techsolutions.com</span>
+                <span>whiskerworksitsolution@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
@@ -82,7 +82,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 TechSolutions. All rights reserved.</p>
+          <p>&copy; 2024 WhiskerWorks. All rights reserved.</p>
         </div>
       </div>
     </footer>
