@@ -1,8 +1,8 @@
-import { Play, CheckCircle, TrendingUp, Zap, Target } from 'lucide-react';
-import { Button } from '../ui/button';
-import { Card, CardContent } from '../ui/card';
-import { EffectivenessCharts } from '../effectiveness-charts';
-import { motion } from 'motion/react';
+import { Play, CheckCircle, TrendingUp, Zap, Target } from "lucide-react";
+import { Button } from "../ui/button";
+import { Card, CardContent } from "../ui/card";
+import { EffectivenessCharts } from "../effectiveness-charts";
+import { motion } from "motion/react";
 
 interface HomeProps {
   setCurrentPage: (page: string) => void;
@@ -12,26 +12,29 @@ export function HomePage({ setCurrentPage }: HomeProps) {
   const values = [
     {
       icon: <Zap className="h-8 w-8" />,
-      title: 'Simplicity',
-      description: 'We believe in clean, straightforward solutions that deliver maximum impact with minimal complexity.',
+      title: "Simplicity",
+      description:
+        "We believe in clean, straightforward solutions that deliver maximum impact with minimal complexity.",
     },
     {
       icon: <TrendingUp className="h-8 w-8" />,
-      title: 'Efficiency',
-      description: 'Our streamlined processes and cutting-edge tools ensure rapid delivery without compromising quality.',
+      title: "Efficiency",
+      description:
+        "Our streamlined processes and cutting-edge tools ensure rapid delivery without compromising quality.",
     },
     {
       icon: <Target className="h-8 w-8" />,
-      title: 'Growth',
-      description: 'We partner with you for long-term success, focusing on scalable solutions that grow with your business.',
+      title: "Growth",
+      description:
+        "We partner with you for long-term success, focusing on scalable solutions that grow with your business.",
     },
   ];
 
   const stats = [
-    { number: '3', label: 'Projects Completed' },
-    { number: '98%', label: 'Client Satisfaction' },
-    { number: '24/7', label: 'Support Available' },
-    { number: '1+', label: 'Years Experience' },
+    { number: "3", label: "Projects Completed" },
+    { number: "98%", label: "Client Satisfaction" },
+    { number: "24/7", label: "Support Available" },
+    { number: "1+", label: "Years Experience" },
   ];
 
   return (
@@ -48,13 +51,22 @@ export function HomePage({ setCurrentPage }: HomeProps) {
             Innovative IT Solutions for Modern Businesses
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Transform your digital presence with our comprehensive suite of web development, hosting, marketing, and AI solutions.
+            Transform your digital presence with our comprehensive suite of web
+            development, hosting, marketing, and AI solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
+            <Button
+              size="lg"
+              onClick={() => setCurrentPage("contact")}
+              className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8"
+            >
               Get Started Today
             </Button>
-            <Button size="lg" variant="outline" onClick={() => setCurrentPage('services')}>
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={() => setCurrentPage("services")}
+            >
               Explore Services
             </Button>
           </div>
@@ -66,7 +78,8 @@ export function HomePage({ setCurrentPage }: HomeProps) {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Why Choose WhiskerWorks?</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover how our innovative approach and dedicated team can transform your business.
+            Discover how our innovative approach and dedicated team can
+            transform your business.
           </p>
         </div>
         <motion.div
@@ -80,11 +93,24 @@ export function HomePage({ setCurrentPage }: HomeProps) {
               <div className="w-24 h-24 bg-gradient-to-r from-[#1a3254] to-[#d3d4d8] rounded-full flex items-center justify-center mx-auto mb-6">
                 <Play className="h-12 w-12 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Experience the Difference</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                Experience the Difference
+              </h3>
               <p className="text-muted-foreground mb-6">
-                Watch how we've helped businesses like yours achieve remarkable growth through our tailored IT solutions.
+                Watch how we've helped businesses like yours achieve remarkable
+                growth through our tailored IT solutions.
               </p>
-              <Button className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
+
+              {/* Button to open YouTube in a new tab */}
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://www.youtube.com/watch?v=0ZMQysOzNAs",
+                    "_blank"
+                  )
+                }
+                className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-[#d3d4d8]"
+              >
                 <Play className="h-4 w-4 mr-2" />
                 Watch Our Story
               </Button>
@@ -98,7 +124,8 @@ export function HomePage({ setCurrentPage }: HomeProps) {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Core Values</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            The principles that drive everything we do and every solution we create.
+            The principles that drive everything we do and every solution we
+            create.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -147,7 +174,8 @@ export function HomePage({ setCurrentPage }: HomeProps) {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Track Record</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Data-driven results that speak for themselves. See how we've consistently delivered value to our clients.
+            Data-driven results that speak for themselves. See how we've
+            consistently delivered value to our clients.
           </p>
         </div>
         <EffectivenessCharts />
@@ -161,15 +189,26 @@ export function HomePage({ setCurrentPage }: HomeProps) {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mx-auto space-y-6"
         >
-          <h2 className="text-3xl font-bold">Ready to Transform Your Business?</h2>
+          <h2 className="text-3xl font-bold">
+            Ready to Transform Your Business?
+          </h2>
           <p className="text-xl text-muted-foreground">
-            Join hundreds of satisfied clients who have accelerated their growth with our innovative solutions.
+            Join hundreds of satisfied clients who have accelerated their growth
+            with our innovative solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">
+            <Button
+              size="lg"
+              onClick={() => setCurrentPage("contact")}
+              className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8"
+            >
               Start Your Project
             </Button>
-            <Button size="lg" variant="outline" onClick={() => setCurrentPage('why-us')}>
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={() => setCurrentPage("why-us")}
+            >
               Learn More
             </Button>
           </div>

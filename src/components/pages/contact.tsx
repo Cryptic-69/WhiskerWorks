@@ -24,7 +24,7 @@ export function ContactPage() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Us',
-      details: 'contact@techsolutions.com',
+      details: 'whiskerworksitsolution@gmail.com',
       description: 'Send us an email anytime',
     },
     {
@@ -48,7 +48,6 @@ export function ContactPage() {
     'Digital Marketing',
     'AI Solutions',
     'SEO Optimization',
-    'E-commerce Solutions',
     'Custom Software',
     'Other',
   ];
@@ -363,7 +362,7 @@ export function ContactPage() {
       {/* Company Email */}
       <section className="py-8 text-center border-t border-border">
         <p className="text-muted-foreground">
-          For general inquiries: <span className="text-[#1a3254] dark:text-[#d3d4d8] font-medium">contact@techsolutions.com</span>
+          For general inquiries: <span className="text-[#1a3254] dark:text-[#d3d4d8] font-medium">whiskerworksitsolution@gmail.com</span>
         </p>
       </section>
     </div>

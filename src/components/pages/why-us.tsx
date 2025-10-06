@@ -25,13 +25,13 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
       icon: <Users className="h-8 w-8" />,
       title: 'Expert Team',
       description: 'Our certified professionals bring years of experience and cutting-edge expertise to your project.',
-      stats: '50+ certifications across the team',
+      stats: '5+ certifications across the team',
     },
     {
       icon: <Trophy className="h-8 w-8" />,
       title: 'Award-Winning',
       description: 'Recognized by industry leaders for innovation, quality, and customer satisfaction.',
-      stats: '15+ industry awards',
+      stats: 'Industry awards',
     },
   ];
 
@@ -40,14 +40,14 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
       name: 'Sarah Mitchell',
       company: 'StartupCorp',
       role: 'CEO',
-      content: 'TechSolutions transformed our digital presence completely. The team\'s expertise and dedication exceeded all our expectations.',
+      content: 'WhiskerWorks transformed our digital presence completely. The team\'s expertise and dedication exceeded all our expectations.',
       rating: 5,
     },
     {
       name: 'Michael Rodriguez',
       company: 'RetailPlus',
       role: 'CTO',
-      content: 'Working with TechSolutions was a game-changer. They delivered a robust e-commerce platform that increased our sales by 200%.',
+      content: 'Working with WhiskerWorks was a game-changer. They delivered a robust e-commerce platform that increased our sales by 200%.',
       rating: 5,
     },
     {
@@ -88,7 +88,7 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
           className="max-w-4xl mx-auto space-y-6"
         >
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1a3254] to-[#d3d4d8] bg-clip-text text-transparent">
-            Why Choose TechSolutions?
+            Why Choose WhiskerWorks?
           </h1>
           <p className="text-xl text-muted-foreground">
             Discover what sets us apart from the competition and why hundreds of businesses trust us with their digital transformation.
@@ -167,7 +167,7 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
       {/* Comparison Table */}
       <section className="py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">TechSolutions vs Others</h2>
+          <h2 className="text-3xl font-bold mb-4">WhiskerWorks vs Others</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             See how we stack up against the competition across key performance indicators.
           </p>
@@ -184,7 +184,7 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
                   <thead>
                     <tr className="border-b border-border">
                       <th className="text-left p-4 font-semibold">Feature</th>
-                      <th className="text-center p-4 font-semibold text-[#1a3254] dark:text-[#d3d4d8]">TechSolutions</th>
+                      <th className="text-center p-4 font-semibold text-[#1a3254] dark:text-[#d3d4d8]">WhiskerWorks</th>
                       <th className="text-center p-4 font-semibold text-muted-foreground">Others</th>
                     </tr>
                   </thead>
@@ -261,7 +261,7 @@ export function WhyUsPage({ setCurrentPage }: WhyUsProps) {
         >
           <h2 className="text-3xl font-bold">Ready to Experience the Difference?</h2>
           <p className="text-xl text-muted-foreground">
-            Join hundreds of satisfied clients who have transformed their business with TechSolutions.
+            Join hundreds of satisfied clients who have transformed their business with WhiskerWorks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={() => setCurrentPage('contact')} className="bg-[#1a3254] hover:bg-[#1a3254]/90 text-#d3d4d8">

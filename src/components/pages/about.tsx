@@ -5,17 +5,17 @@ import { ImageWithFallback } from '../figma/ImageWithFallback';
 
 export function AboutPage() {
   const milestones = [
-    { year: '2019', event: 'Company Founded', description: 'Started with a vision to democratize technology' },
-    { year: '2020', event: 'First 100 Clients', description: 'Reached our first major milestone during the pandemic' },
-    { year: '2022', event: 'AI Division Launch', description: 'Expanded into artificial intelligence solutions' },
-    { year: '2024', event: 'Global Expansion', description: 'Serving clients across 15 countries worldwide' },
+    { year: '2025', event: 'Company Founded', description: 'Started with a vision to democratize technology' },
+    { year: '2025', event: 'First Clients', description: 'Reached our first major client' },
+    { year: '2025', event: 'AI Division Launch', description: 'Expanded into artificial intelligence solutions' },
+    { year: '2025', event: 'Global Expansion', description: 'Serving clients multiple services' },
   ];
 
   const team = [
-    { name: 'Sarah Johnson', role: 'CEO & Founder', experience: '15+ years in tech leadership' },
-    { name: 'Michael Chen', role: 'CTO', experience: 'Former Google engineer, AI specialist' },
-    { name: 'Emily Rodriguez', role: 'Head of Design', experience: 'Award-winning UX/UI designer' },
-    { name: 'David Kim', role: 'Lead Developer', experience: 'Full-stack expert, 10+ years' },
+    { name: 'Ved Zende', role: 'CEO & Founder', experience: '1+ years in tech leadership' },
+    { name: 'Ved Zende', role: 'Head of Design', experience: 'Department head in arts in university' },
+    { name: 'Ved Zende', role: 'Lead Developer', experience: 'Full-stack developer, 1 years' },
+    { name: 'Ved Zende', role: 'Maketing', experience: 'Eager to learn' },
   ];
 
   const values = [
@@ -72,7 +72,7 @@ export function AboutPage() {
             <h2 className="text-3xl font-bold">Our Story</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Founded in 2019, TechSolutions emerged from a simple yet powerful idea: that every business, 
+                Founded in 2025, WhiskerWorks emerged from a simple yet powerful idea: that every business, 
                 regardless of size, deserves access to cutting-edge technology solutions that drive growth and innovation.
               </p>
               <p>
@@ -80,7 +80,7 @@ export function AboutPage() {
                 IT services, decided to create a company that would make technology accessible, affordable, and effective.
               </p>
               <p>
-                Today, we're proud to serve hundreds of clients worldwide, from startups to enterprise companies, 
+                Today, we're proud to serve multiple services to clients, from startups to enterprise companies, 
                 helping them navigate the digital landscape with confidence and success.
               </p>
             </div>
